@@ -1,0 +1,92 @@
+[
+  {
+    "type": "Bold Red",
+    "tasteProfile": {
+      "boldness": 4,
+      "tannidity": 4,
+      "sweetness": 0,
+      "acidity": 2
+    },
+    "description": "Bold Red wines are known for their robust flavors and high tannin content."
+  },
+  {
+    "type": "Medium Red",
+    "tasteProfile": {
+      "boldness": 2,
+      "tannidity": 2,
+      "sweetness": 2,
+      "acidity": 2
+    },
+    "description": "Medium Red wines balance fruit, tannins, and acidity, offering versatility."
+  },
+  {
+    "type": "Light Red",
+    "tasteProfile": {
+      "boldness": 0,
+      "tannidity": 0,
+      "sweetness": 1,
+      "acidity": 3
+    },
+    "description": "Light Red wines are fresh and light, perfect for a summer day."
+  },
+  {
+    "type": "Rosé",
+    "tasteProfile": {
+      "boldness": 1,
+      "tannidity": 0,
+      "sweetness": 3,
+      "acidity": 4
+    },
+    "description": "Rosé wines are crisp and refreshing, often with a hint of sweetness."
+  },
+  {
+    "type": "Rich White",
+    "tasteProfile": {
+      "boldness": 3,
+      "tannidity": 1,
+      "sweetness": 0,
+      "acidity": 4
+    },
+    "description": "Rich White wines are full-bodied with complex flavors and aromatic richness."
+  },
+  {
+    "type": "Light White",
+    "tasteProfile": {
+      "boldness": 1,
+      "tannidity": 0,
+      "sweetness": 1,
+      "acidity": 4
+    },
+    "description": "Light White wines are known for their acidity and crisp, refreshing taste."
+  },
+  {
+    "type": "Sparkling",
+    "tasteProfile": {
+      "boldness": 2,
+      "tannidity": 1,
+      "sweetness": 3,
+      "acidity": 4
+    },
+    "description": "Sparkling wines are vibrant and bubbly, often with a touch of sweetness."
+  },
+  {
+    "type": "Sweet White",
+    "tasteProfile": {
+      "boldness": 1,
+      "tannidity": 0,
+      "sweetness": 4,
+      "acidity": 2
+    },
+    "description": "Sweet White wines are delightful, with pronounced sweetness and aromatic bouquets."
+  },
+  {
+    "type": "Dessert",
+    "tasteProfile": {
+      "boldness": 3,
+      "tannidity": 3,
+      "sweetness": 4,
+      "acidity": 1
+    },
+    "description": "Dessert wines are rich and sweet, often enjoyed with or as dessert."
+  }
+]

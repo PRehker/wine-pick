@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "image-picker-module",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftui-packages/image-picker-module.git",
+      "state" : {
+        "revision" : "5c4e813e86d8dec2977693f4f4a4f84427ba7f9a",
+        "version" : "1.0.7"
+      }
+    }
+  ],
+  "version" : 2
+}

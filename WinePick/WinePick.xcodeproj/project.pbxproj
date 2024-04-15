@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E7954562BBD4A2300481718 /* WinePickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7954552BBD4A2300481718 /* WinePickApp.swift */; };
+		6E79545A2BBD4A2500481718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E7954592BBD4A2500481718 /* Assets.xcassets */; };
+		6E79545D2BBD4A2500481718 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E79545C2BBD4A2500481718 /* Preview Assets.xcassets */; };
+		6E7954882BBD4B2500481718 /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7954872BBD4B2500481718 /* Wine.swift */; };
+		6E79548A2BBD4C4C00481718 /* TasteProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7954892BBD4C4C00481718 /* TasteProfile.swift */; };
+		6E79548C2BBD4E8D00481718 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E79548B2BBD4E8D00481718 /* Food.swift */; };
+		6E8131D22BBD866300042CA7 /* SelectionOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8131D12BBD866300042CA7 /* SelectionOverview.swift */; };
+		6E8131D72BBE8A5E00042CA7 /* SelectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8131D62BBE8A5E00042CA7 /* SelectionModel.swift */; };
+		6E8131DE2BBE90FC00042CA7 /* SelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8131DD2BBE90FC00042CA7 /* SelectedView.swift */; };
+		6E8131E32BBE9A2500042CA7 /* SelectionCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8131E22BBE9A2500042CA7 /* SelectionCategoryView.swift */; };
+		6E8131E52BBEF2D200042CA7 /* MockSelectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8131E42BBEF2D100042CA7 /* MockSelectionModel.swift */; };
+		6E8148F82BC490A300CC4399 /* ResultTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8148F72BC490A300CC4399 /* ResultTabView.swift */; };
+		6E8148FA2BC4932400CC4399 /* TasteProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8148F92BC4932400CC4399 /* TasteProfileView.swift */; };
+		6E8148FD2BC5733E00CC4399 /* Borel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E8148FC2BC5733E00CC4399 /* Borel-Regular.ttf */; };
+		6E8148FF2BC5799D00CC4399 /* AddIngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8148FE2BC5799D00CC4399 /* AddIngredientView.swift */; };
+		6E8149042BC5AA4200CC4399 /* ImagePickerModule in Frameworks */ = {isa = PBXBuildFile; productRef = 6E8149032BC5AA4200CC4399 /* ImagePickerModule */; };
+		6E8149062BC5B6CF00CC4399 /* PopUpMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8149052BC5B6CF00CC4399 /* PopUpMenuView.swift */; };
+		6ED09B9A2BC33DE4003BFD71 /* SelectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED09B992BC33DE4003BFD71 /* SelectionListView.swift */; };
+		6ED09B9C2BC34060003BFD71 /* ListIngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED09B9B2BC34060003BFD71 /* ListIngredientView.swift */; };
+		6ED09B9E2BC42070003BFD71 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED09B9D2BC42070003BFD71 /* ResultView.swift */; };
+		6ED09BA02BC4389C003BFD71 /* SelectedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED09B9F2BC4389C003BFD71 /* SelectedItemView.swift */; };
+		6EF4A2672BCD2B19008EA637 /* Food.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EF4A2662BCD2B19008EA637 /* Food.json */; };
+		6EF4A2692BCD2B32008EA637 /* Wine.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EF4A2682BCD2B32008EA637 /* Wine.json */; };
+		6EF945A42BBF38F90056CCAC /* CategoryIngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF945A32BBF38F90056CCAC /* CategoryIngredientView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E7954522BBD4A2300481718 /* WinePick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinePick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E7954552BBD4A2300481718 /* WinePickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinePickApp.swift; sourceTree = "<group>"; };
+		6E7954592BBD4A2500481718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E79545C2BBD4A2500481718 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E7954872BBD4B2500481718 /* Wine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		6E7954892BBD4C4C00481718 /* TasteProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteProfile.swift; sourceTree = "<group>"; };
+		6E79548B2BBD4E8D00481718 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		6E8131D12BBD866300042CA7 /* SelectionOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionOverview.swift; sourceTree = "<group>"; };
+		6E8131D62BBE8A5E00042CA7 /* SelectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionModel.swift; sourceTree = "<group>"; };
+		6E8131DD2BBE90FC00042CA7 /* SelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedView.swift; sourceTree = "<group>"; };
+		6E8131E22BBE9A2500042CA7 /* SelectionCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionCategoryView.swift; sourceTree = "<group>"; };
+		6E8131E42BBEF2D100042CA7 /* MockSelectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSelectionModel.swift; sourceTree = "<group>"; };
+		6E8148F72BC490A300CC4399 /* ResultTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTabView.swift; sourceTree = "<group>"; };
+		6E8148F92BC4932400CC4399 /* TasteProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteProfileView.swift; sourceTree = "<group>"; };
+		6E8148FC2BC5733E00CC4399 /* Borel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Borel-Regular.ttf"; sourceTree = "<group>"; };
+		6E8148FE2BC5799D00CC4399 /* AddIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIngredientView.swift; sourceTree = "<group>"; };
+		6E8149052BC5B6CF00CC4399 /* PopUpMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpMenuView.swift; sourceTree = "<group>"; };
+		6E8149072BC5B9B300CC4399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6ED09B992BC33DE4003BFD71 /* SelectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionListView.swift; sourceTree = "<group>"; };
+		6ED09B9B2BC34060003BFD71 /* ListIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListIngredientView.swift; sourceTree = "<group>"; };
+		6ED09B9D2BC42070003BFD71 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		6ED09B9F2BC4389C003BFD71 /* SelectedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedItemView.swift; sourceTree = "<group>"; };
+		6EF4A2662BCD2B19008EA637 /* Food.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Food.json; sourceTree = "<group>"; };
+		6EF4A2682BCD2B32008EA637 /* Wine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Wine.json; sourceTree = "<group>"; };
+		6EF945A32BBF38F90056CCAC /* CategoryIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryIngredientView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E79544F2BBD4A2300481718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8149042BC5AA4200CC4399 /* ImagePickerModule in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E7954492BBD4A2300481718 = {
+			isa = PBXGroup;
+			children = (
+				6E7954542BBD4A2300481718 /* WinePick */,
+				6E7954532BBD4A2300481718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E7954532BBD4A2300481718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E7954522BBD4A2300481718 /* WinePick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E7954542BBD4A2300481718 /* WinePick */ = {
+			isa = PBXGroup;
+			children = (
+				6E8149072BC5B9B300CC4399 /* Info.plist */,
+				6E8148FB2BC5733200CC4399 /* Fonts */,
+				6E7954552BBD4A2300481718 /* WinePickApp.swift */,
+				6E7954842BBD4AE300481718 /* Selection Subsystem */,
+				6E7954862BBD4AFC00481718 /* Models */,
+				6E79545B2BBD4A2500481718 /* Preview Content */,
+				6E7954592BBD4A2500481718 /* Assets.xcassets */,
+			);
+			path = WinePick;
+			sourceTree = "<group>";
+		};
+		6E79545B2BBD4A2500481718 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E79545C2BBD4A2500481718 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E7954842BBD4AE300481718 /* Selection Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				6E8131DF2BBE9A0B00042CA7 /* SelectionSubViews */,
+				6E8131D12BBD866300042CA7 /* SelectionOverview.swift */,
+				6ED09B9D2BC42070003BFD71 /* ResultView.swift */,
+				6E8148FE2BC5799D00CC4399 /* AddIngredientView.swift */,
+			);
+			path = "Selection Subsystem";
+			sourceTree = "<group>";
+		};
+		6E7954862BBD4AFC00481718 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6EF4A2652BCD2AF5008EA637 /* JSONContent */,
+				6E8131D32BBE86DB00042CA7 /* Model Objects */,
+				6E8131D62BBE8A5E00042CA7 /* SelectionModel.swift */,
+				6E8131E42BBEF2D100042CA7 /* MockSelectionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6E8131D32BBE86DB00042CA7 /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+				6E7954872BBD4B2500481718 /* Wine.swift */,
+				6E79548B2BBD4E8D00481718 /* Food.swift */,
+				6E7954892BBD4C4C00481718 /* TasteProfile.swift */,
+			);
+			path = "Model Objects";
+			sourceTree = "<group>";
+		};
+		6E8131DF2BBE9A0B00042CA7 /* SelectionSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				6E8148F62BC4909100CC4399 /* ResultSubViews */,
+				6E8148F42BC4906500CC4399 /* SelectedSubViews */,
+				6E8148F32BC4902B00CC4399 /* SelectionViewSubViews */,
+				6E8149052BC5B6CF00CC4399 /* PopUpMenuView.swift */,
+			);
+			path = SelectionSubViews;
+			sourceTree = "<group>";
+		};
+		6E8148F32BC4902B00CC4399 /* SelectionViewSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				6E8131E22BBE9A2500042CA7 /* SelectionCategoryView.swift */,
+				6EF945A32BBF38F90056CCAC /* CategoryIngredientView.swift */,
+				6ED09B992BC33DE4003BFD71 /* SelectionListView.swift */,
+				6ED09B9B2BC34060003BFD71 /* ListIngredientView.swift */,
+			);
+			path = SelectionViewSubViews;
+			sourceTree = "<group>";
+		};
+		6E8148F42BC4906500CC4399 /* SelectedSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				6E8131DD2BBE90FC00042CA7 /* SelectedView.swift */,
+				6ED09B9F2BC4389C003BFD71 /* SelectedItemView.swift */,
+			);
+			path = SelectedSubViews;
+			sourceTree = "<group>";
+		};
+		6E8148F62BC4909100CC4399 /* ResultSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				6E8148F72BC490A300CC4399 /* ResultTabView.swift */,
+				6E8148F92BC4932400CC4399 /* TasteProfileView.swift */,
+			);
+			path = ResultSubViews;
+			sourceTree = "<group>";
+		};
+		6E8148FB2BC5733200CC4399 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6E8148FC2BC5733E00CC4399 /* Borel-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6EF4A2652BCD2AF5008EA637 /* JSONContent */ = {
+			isa = PBXGroup;
+			children = (
+				6EF4A2662BCD2B19008EA637 /* Food.json */,
+				6EF4A2682BCD2B32008EA637 /* Wine.json */,
+			);
+			path = JSONContent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E7954512BBD4A2300481718 /* WinePick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E7954762BBD4A2600481718 /* Build configuration list for PBXNativeTarget "WinePick" */;
+			buildPhases = (
+				6E79544E2BBD4A2300481718 /* Sources */,
+				6E79544F2BBD4A2300481718 /* Frameworks */,
+				6E7954502BBD4A2300481718 /* Resources */,
+				6EF945A22BBF30BB0056CCAC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinePick;
+			packageProductDependencies = (
+				6E8149032BC5AA4200CC4399 /* ImagePickerModule */,
+			);
+			productName = WinePick;
+			productReference = 6E7954522BBD4A2300481718 /* WinePick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E79544A2BBD4A2300481718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					6E7954512BBD4A2300481718 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 6E79544D2BBD4A2300481718 /* Build configuration list for PBXProject "WinePick" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E7954492BBD4A2300481718;
+			packageReferences = (
+				6E8149022BC5AA4200CC4399 /* XCRemoteSwiftPackageReference "image-picker-module" */,
+			);
+			productRefGroup = 6E7954532BBD4A2300481718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E7954512BBD4A2300481718 /* WinePick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E7954502BBD4A2300481718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF4A2692BCD2B32008EA637 /* Wine.json in Resources */,
+				6E8148FD2BC5733E00CC4399 /* Borel-Regular.ttf in Resources */,
+				6EF4A2672BCD2B19008EA637 /* Food.json in Resources */,
+				6E79545D2BBD4A2500481718 /* Preview Assets.xcassets in Resources */,
+				6E79545A2BBD4A2500481718 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EF945A22BBF30BB0056CCAC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E79544E2BBD4A2300481718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8148FA2BC4932400CC4399 /* TasteProfileView.swift in Sources */,
+				6E8148F82BC490A300CC4399 /* ResultTabView.swift in Sources */,
+				6ED09B9A2BC33DE4003BFD71 /* SelectionListView.swift in Sources */,
+				6E79548A2BBD4C4C00481718 /* TasteProfile.swift in Sources */,
+				6E8131E32BBE9A2500042CA7 /* SelectionCategoryView.swift in Sources */,
+				6E8148FF2BC5799D00CC4399 /* AddIngredientView.swift in Sources */,
+				6E79548C2BBD4E8D00481718 /* Food.swift in Sources */,
+				6ED09B9E2BC42070003BFD71 /* ResultView.swift in Sources */,
+				6E8131E52BBEF2D200042CA7 /* MockSelectionModel.swift in Sources */,
+				6E7954882BBD4B2500481718 /* Wine.swift in Sources */,
+				6E7954562BBD4A2300481718 /* WinePickApp.swift in Sources */,
+				6EF945A42BBF38F90056CCAC /* CategoryIngredientView.swift in Sources */,
+				6E8131D72BBE8A5E00042CA7 /* SelectionModel.swift in Sources */,
+				6ED09BA02BC4389C003BFD71 /* SelectedItemView.swift in Sources */,
+				6ED09B9C2BC34060003BFD71 /* ListIngredientView.swift in Sources */,
+				6E8131D22BBD866300042CA7 /* SelectionOverview.swift in Sources */,
+				6E8149062BC5B6CF00CC4399 /* PopUpMenuView.swift in Sources */,
+				6E8131DE2BBE90FC00042CA7 /* SelectedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6E7954742BBD4A2600481718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E7954752BBD4A2600481718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E7954772BBD4A2600481718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WinePick/Preview Content\"";
+				DEVELOPMENT_TEAM = 4B3W88K6UN;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WinePick/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.philiprehker.WinePick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E7954782BBD4A2600481718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WinePick/Preview Content\"";
+				DEVELOPMENT_TEAM = 4B3W88K6UN;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WinePick/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.philiprehker.WinePick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E79544D2BBD4A2300481718 /* Build configuration list for PBXProject "WinePick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E7954742BBD4A2600481718 /* Debug */,
+				6E7954752BBD4A2600481718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E7954762BBD4A2600481718 /* Build configuration list for PBXNativeTarget "WinePick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E7954772BBD4A2600481718 /* Debug */,
+				6E7954782BBD4A2600481718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E8149022BC5AA4200CC4399 /* XCRemoteSwiftPackageReference "image-picker-module" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftui-packages/image-picker-module.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E8149032BC5AA4200CC4399 /* ImagePickerModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E8149022BC5AA4200CC4399 /* XCRemoteSwiftPackageReference "image-picker-module" */;
+			productName = ImagePickerModule;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6E79544A2BBD4A2300481718 /* Project object */;
+}

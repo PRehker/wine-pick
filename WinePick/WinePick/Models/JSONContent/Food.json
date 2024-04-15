@@ -1,0 +1,479 @@
+[
+  {
+    "id": 1,
+    "name": "Red Meat",
+    "category": "Meat",
+    "rating": [
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Cured Meat",
+    "category": "Meat",
+    "rating": [
+      1,
+      1,
+      2,
+      1,
+      0,
+      0,
+      1,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pork",
+    "category": "Meat",
+    "rating": [
+      1,
+      2,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Poultry",
+    "category": "Meat",
+    "rating": [
+      0,
+      1,
+      2,
+      1,
+      2,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mollusk",
+    "category": "Seafood",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Fish (Incl. Raw)",
+    "category": "Seafood",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Lobster & Shellfish",
+    "category": "Seafood",
+    "rating": [
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "name": "soft cheese",
+    "category": "Cheese",
+    "rating": [
+      0,
+      1,
+      2,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "pungent cheese",
+    "category": "Cheese",
+    "rating": [
+      1,
+      2,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "name": "hard cheese",
+    "category": "Cheese",
+    "rating": [
+      2,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Alliums",
+    "category": "Vegetables",
+    "rating": [
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Green Vegetables",
+    "category": "Vegetables",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Root Vegetables & Squash",
+    "category": "Vegetables",
+    "rating": [
+      0,
+      0,
+      0,
+      2,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Nightshades",
+    "category": "Vegetables",
+    "rating": [
+      1,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Fungi",
+    "category": "Vegetables",
+    "rating": [
+      1,
+      2,
+      2,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Nuts & Seeds",
+    "category": "Plant-based",
+    "rating": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Beans & Peas",
+    "category": "Plant-based",
+    "rating": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Black Pepper",
+    "category": "Spices",
+    "rating": [
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Red Pepper",
+    "category": "Spices",
+    "rating": [
+      1,
+      2,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Hot & Spicy",
+    "category": "Spices",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Herbs",
+    "category": "Spices",
+    "rating": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Baking Spices",
+    "category": "Spices",
+    "rating": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Exotic & Aromatic Spices",
+    "category": "Spices",
+    "rating": [
+      0,
+      2,
+      1,
+      1,
+      0,
+      0,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "id": 21,
+    "name": "White Starches",
+    "category": "Starches",
+    "rating": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Whole Wheat Grains",
+    "category": "Starches",
+    "rating": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Sweet Starchy Vegetables",
+    "category": "Starches",
+    "rating": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Potato",
+    "category": "Starches",
+    "rating": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Fruit & Berries",
+    "category": "Sweets",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Vanilla & Caramel",
+    "category": "Sweets",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Chocolate & Coffee",
+    "category": "Sweets",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  }
+]
